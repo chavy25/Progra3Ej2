@@ -1,0 +1,9 @@
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\bin\Debug\Progra3Ej2.exe.config
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\bin\Debug\Progra3Ej2.exe
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\bin\Debug\Progra3Ej2.pdb
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\obj\Debug\Progra3Ej2.Form1.resources
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\obj\Debug\Progra3Ej2.Properties.Resources.resources
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\obj\Debug\Progra3Ej2.csproj.GenerateResource.Cache
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\obj\Debug\Progra3Ej2.exe
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\obj\Debug\Progra3Ej2.pdb
+c:\users\priscilla\documents\visual studio 2015\Projects\Progra3Ej2\Progra3Ej2\obj\Debug\Progra3Ej2.csprojResolveAssemblyReference.cache
