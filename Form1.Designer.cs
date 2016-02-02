@@ -30,13 +30,13 @@
         {
             this.txtEntrada = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
+            this.txtCuarto = new System.Windows.Forms.TextBox();
+            this.txtTercero = new System.Windows.Forms.TextBox();
             this.txtBool = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtTercero = new System.Windows.Forms.TextBox();
-            this.txtCuarto = new System.Windows.Forms.TextBox();
-            this.btnBorrar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +49,8 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.btnBorrar);
             this.panel1.Controls.Add(this.txtCuarto);
@@ -61,6 +63,40 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(338, 288);
             this.panel1.TabIndex = 4;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(208, 226);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.TabIndex = 9;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btnBorrar
+            // 
+            this.btnBorrar.Location = new System.Drawing.Point(127, 226);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(75, 23);
+            this.btnBorrar.TabIndex = 8;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
+            // 
+            // txtCuarto
+            // 
+            this.txtCuarto.Location = new System.Drawing.Point(46, 175);
+            this.txtCuarto.Name = "txtCuarto";
+            this.txtCuarto.Size = new System.Drawing.Size(183, 20);
+            this.txtCuarto.TabIndex = 7;
+            // 
+            // txtTercero
+            // 
+            this.txtTercero.Location = new System.Drawing.Point(43, 140);
+            this.txtTercero.Name = "txtTercero";
+            this.txtTercero.Size = new System.Drawing.Size(183, 20);
+            this.txtTercero.TabIndex = 6;
             // 
             // txtBool
             // 
@@ -87,40 +123,6 @@
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "label1";
-            // 
-            // txtTercero
-            // 
-            this.txtTercero.Location = new System.Drawing.Point(43, 140);
-            this.txtTercero.Name = "txtTercero";
-            this.txtTercero.Size = new System.Drawing.Size(183, 20);
-            this.txtTercero.TabIndex = 6;
-            // 
-            // txtCuarto
-            // 
-            this.txtCuarto.Location = new System.Drawing.Point(46, 175);
-            this.txtCuarto.Name = "txtCuarto";
-            this.txtCuarto.Size = new System.Drawing.Size(183, 20);
-            this.txtCuarto.TabIndex = 7;
-            // 
-            // btnBorrar
-            // 
-            this.btnBorrar.Location = new System.Drawing.Point(127, 226);
-            this.btnBorrar.Name = "btnBorrar";
-            this.btnBorrar.Size = new System.Drawing.Size(75, 23);
-            this.btnBorrar.TabIndex = 8;
-            this.btnBorrar.Text = "Borrar";
-            this.btnBorrar.UseVisualStyleBackColor = true;
-            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Location = new System.Drawing.Point(208, 226);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
-            this.btnSalir.TabIndex = 9;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // Form1
             // 
